@@ -1,3 +1,3 @@
-git config user.name maindev
-git config user.email maindev@blackhole.de
+git config user.name jvm
+git config user.email jvm@blackhole.de
 git config push.default simple 
