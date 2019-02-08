@@ -1,5 +1,9 @@
 *.lst
 *~lock*
+.img
+.tar.gz
+sdx1
+sdx2
 
 
 
