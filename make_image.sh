@@ -10,8 +10,6 @@ echo "++++++++++++ show all loop devices"
 losetup --all
 
 
-# create variables
-ALI=Arch.tar.gz
 
 # cleanup
 echo "*********** removing old stuff"
