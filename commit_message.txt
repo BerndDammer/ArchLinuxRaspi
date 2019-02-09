@@ -1,1 +1,1 @@
-missing bootcode.bin
+first lxde suxxess with ala
