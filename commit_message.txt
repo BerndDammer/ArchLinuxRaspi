@@ -1,1 +1,1 @@
-bootcode script
+missing bootcode.bin
