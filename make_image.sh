@@ -22,7 +22,7 @@ rm -f alarm.img
 
 echo "*************** creating empty image"
 
-dd if=/dev/zero of=alarm.img bs=1M count=2500 status=progress
+dd if=/dev/zero of=alarm.img bs=1M count=7424 status=progress
 
 # read iojeiofjiwof
 
@@ -30,8 +30,8 @@ echo "****************** make partition table"
 
 # scriting style ???
 sfdisk alarm.img <<EOF
-2048,409600,C
-411648,3000000,83
+2048,522240,C
+524288,14680064,83
 EOF
 
 # checking partition table
