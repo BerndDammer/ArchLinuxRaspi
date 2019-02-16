@@ -1,1 +1,1 @@
-add sun jre building
+ejdk name
