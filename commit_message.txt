@@ -1,1 +1,1 @@
-ejdk add final tar building
+good result with sunjre
