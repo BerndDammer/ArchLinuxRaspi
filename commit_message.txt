@@ -1,1 +1,1 @@
-First view of Ensemble8 on Raspi and ala
+add sun jre building
