@@ -17,10 +17,10 @@ tar -czf sunjre.tar.gz sunjre
 GLUON_ARC=armv6hf-sdk-8.60.9.zip
 GLUON_DIR=armv6hf-sdk
 
-tar -xzvpf $GLUON_ARC
-cp sunjre gluon
-cp {GLUON_DIR}/lib/* gluon/lib  
-cp {GLUON_DIR}/lib/rt/lib/* gluon/lib/
+unzip $GLUON_ARC
+cp -r sunjre gluon
+cp -r ${GLUON_DIR}/lib/* gluon/lib  
+cp -r ${GLUON_DIR}/rt/lib/* gluon/lib/
 
 tar -czf gluon.tar.gz gluon
 
