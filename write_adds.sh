@@ -12,11 +12,31 @@ mkdir sdx2/opt/as/apps
 mkdir sdx2/opt/as
 
 
+echo "******************* write jre's"
 
-# create variables
 
 tar -xzvpf gluon.tar.gz -C sdx2/opt/as
 tar -xzvpf sunjre.tar.gz -C sdx2/opt/as
+
+tar -xzvpf ${LIB9} -C sdx2/opt/as
+mv sdx2/opt/as/${LIB9V} sdx2/opt/as/lib9
+
 tar -xzvpf ${LIB11} -C sdx2/opt/as
 mv sdx2/opt/as/${LIB11V} sdx2/opt/as/lib11
+
+echo "******************* copy apps"
+
+cp as.jar sdx2/opt/as/apps
+cp watchmen.jar sdx2/opt/as/apps
+cp Ensemble8.jar sdx2/opt/as/apps
+cp Font2DTest.jar sdx2/opt/as/apps
+cp Java2Demo.jar sdx2/opt/as/apps
+cp SwingSet2.jar sdx2/opt/as/apps
+cp ResourceRead14.jar sdx2/opt/as/apps
+
+cp .xinitrc sdx2/home/alarm
+cp install-alarm.sh sdx2/root
+
+cp config.txt sdx1
+# cp cmdline.txt sdx1
 

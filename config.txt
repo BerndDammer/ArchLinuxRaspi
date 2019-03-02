@@ -1,0 +1,24 @@
+# See /boot/overlays/README for all available options
+
+gpu_mem=256
+initramfs initramfs-linux.img followkernel
+disable_overscan=1
+
+# For Hifiberry amp
+# overlay=hifiberry-amp
+
+# For Hifiberry amp2
+# dtoverlay=hifiberry-daclpus
+
+# For Touchscreen
+# max_usb_current=1
+# hdmi_force_hotplug=1
+# config_hdmi_boost=7
+# hdmi_group=2
+# hdmi_mode=1
+# hdmi_mode=87
+# hdmi_drive=1
+# hdmi_cvt 800 480 60 6 0 0 0
+
+# Uart
+enable_uart=1
