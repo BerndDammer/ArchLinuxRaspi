@@ -1,2 +1,2 @@
-prep scripts for auto system building
+pacman noconfirm
 

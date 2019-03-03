@@ -21,4 +21,4 @@ disable_overscan=1
 # hdmi_cvt 800 480 60 6 0 0 0
 
 # Uart
-enable_uart=1
+# enable_uart=1

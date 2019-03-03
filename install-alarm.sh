@@ -11,16 +11,17 @@ pacman -Su
 
 
 echo "******************* mc"
-pacman -S mc
+pacman --noconfirm -S mc
 
 echo "******************* X"
-pacman -S xorg
-pacman -S xterm
-pacman -S lxde
-pacman -S xorg-xinit
+pacman --noconfirm -S xorg
+pacman --noconfirm -S xterm
+pacman --noconfirm -S lxde
+pacman --noconfirm -S xorg-xinit
+pacman --noconfirm -S xf86-video-fbdev
 
 echo "******************* audio adds"
-pacman -S audacity
-pacman -S alsa-lib
-pacman -S alsa-utils
+pacman --noconfirm -S audacity
+pacman --noconfirm -S alsa-lib
+pacman --noconfirm -S alsa-utils
 
