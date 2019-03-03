@@ -24,6 +24,11 @@ mv sdx2/opt/as/${LIB9V} sdx2/opt/as/lib9
 tar -xzvpf ${LIB11} -C sdx2/opt/as
 mv sdx2/opt/as/${LIB11V} sdx2/opt/as/lib11
 
+echo "******************* add fonts to liberica"
+
+cp fonts /opt/as/lib9/lib
+cp fonts /opt/as/lib11/lib
+
 echo "******************* copy apps"
 
 cp as.jar sdx2/opt/as/apps
@@ -38,5 +43,8 @@ cp .xinitrc sdx2/home/alarm
 cp install-alarm.sh sdx2/root
 
 cp config.txt sdx1
+mkdir -f /usr/local/share/applications
+cp applications/*.desktop /usr/local/share/applications
+cp alahome/* /home/alarm
 # cp cmdline.txt sdx1
 

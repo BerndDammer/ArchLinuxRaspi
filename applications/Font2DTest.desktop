@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Font2DTest
+GenericName=Java Test
+Comment=Show Java avaiable Fonts
+Type=Application
+Exec=/opt/as/sunjre/bin/java -jar /opt/as/apps/Font2DTest.jar
+Terminal=false
+

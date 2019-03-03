@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Java2Demo
+GenericName=Java Test
+Comment=Show all Java Graphic Captabilities
+Type=Application
+Exec=/opt/as/sunjre/bin/java -jar /opt/as/apps/Java2Demo.jar
+Terminal=false
+

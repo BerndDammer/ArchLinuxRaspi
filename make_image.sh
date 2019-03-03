@@ -58,5 +58,5 @@ mkdir sdx2
 
 mount ${LOOP}p1 sdx1
 mount ${LOOP}p2 sdx2
-
+echo "***************** end"
 

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ResourceRead
+GenericName=Java Test
+Comment=Show Java environement
+Type=Application
+Exec=/opt/as/sunjre/bin/java -jar /opt/as/apps/ResourceRead14.jar
+Terminal=false
+

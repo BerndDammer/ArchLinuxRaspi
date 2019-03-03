@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SwingSet2
+GenericName=Java Test
+Comment=Show all Swing GUI Components
+Type=Application
+Exec=/opt/as/sunjre/bin/java -jar /opt/as/apps/SwingSet2.jar
+Terminal=false
+
