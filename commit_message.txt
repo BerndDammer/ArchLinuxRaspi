@@ -1,2 +1,2 @@
-pacman noconfirm
-
+image write batch
+most install scripts working
