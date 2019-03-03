@@ -6,12 +6,13 @@ pacman-key --init
 pacman-key --populate archlinuxarm
 
 echo "******************* all system update"
-pacman -Sy
-pacman -Su
+pacman --noconfirm -Sy
+pacman --noconfirm -Su
 
 
 echo "******************* mc"
 pacman --noconfirm -S mc
+pacman --noconfirm -S htop
 
 echo "******************* X"
 pacman --noconfirm -S xorg
