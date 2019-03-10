@@ -1,0 +1,81 @@
+{ 
+	"CrashFileName" : "CrashSnap_", 
+	"ServerPort" : 80, 
+	"NTPServer" : "131.188.3.223", 
+	"pidfiles" : 
+	[ 
+		"sabberjack" 
+	], 
+
+	"logfiles" : 
+	[ 
+		"sabberjack" 
+	 ], 
+
+	"SystemdServices" : 
+	[ 
+		"dropbear", 
+		"httpd", 
+		"watchdog", 
+		"watchmen"
+	 ], 
+
+	"MulticastConnect" : 
+	{ 
+		"outSourcePort" : 30003, 
+		"outDestinationPort" : 30004, 
+		"inSourcePort" : 30001, 
+		"inDestinationPort" : 30002, 
+		"modulName" : "alarm", 
+		"thisModulCode" : 11, 
+		"thisModulVersion" : 1, 
+		"otherModulCode" : 10, 
+		"otherModulVersion" : 1
+	 }, 
+
+	"SystemCommands" : 
+	{ 
+		"top" : 
+		[ 
+			"top", 
+			"-b", 
+			"-n", 
+			"1"
+		 ], 
+
+		"journalctl" : 
+		[ 
+			"/bin/journalctl", 
+			"-b"
+		 ], 
+
+		"dmesg" : 
+		[ 
+			"dmesg"
+		 ], 
+
+		"ps" : 
+		[ 
+			"ps"
+		 ], 
+
+		"date" : 
+		[ 
+			"date"
+		 ], 
+
+		"ifconfig" : 
+		[ 
+			"/sbin/ifconfig"
+		 ]
+	 }, 
+
+	"DownloadDirs" : 
+	{ 
+		"loggings" : "/var/log", 
+		"pidfiles" : "/var/run", 
+		"writeablearea" : "/boot/as", 
+		"systemdcontrolfiles" : "/lib/systemd/system", 
+		"systemdutilfiles" : "/lib/systemd"
+	 }
+ }

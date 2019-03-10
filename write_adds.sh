@@ -9,7 +9,6 @@ LIB9V=jre-9.0.4
 echo "******************* create dirs in opt"
 mkdir sdx2/opt/as
 mkdir sdx2/opt/as/apps
-mkdir sdx2/opt/as
 
 
 echo "******************* write jre's"
