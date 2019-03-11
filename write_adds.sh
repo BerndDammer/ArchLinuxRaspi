@@ -31,7 +31,10 @@ cp fonts /opt/as/lib11/lib
 echo "******************* copy apps"
 
 cp as.jar sdx2/opt/as/apps
+
 cp watchmen.jar sdx2/opt/as/apps
+cp applications/watchmen.json sdx2/opt/as/apps
+
 cp Ensemble8.jar sdx2/opt/as/apps
 cp Font2DTest.jar sdx2/opt/as/apps
 cp Java2Demo.jar sdx2/opt/as/apps
@@ -46,4 +49,9 @@ mkdir -f /usr/local/share/applications
 cp applications/*.desktop /usr/local/share/applications
 cp alahome/* /home/alarm
 # cp cmdline.txt sdx1
+
+echo "systemd control files"
+
+cp systemd/*.service sdx2/usr/lib/systemd/system/
+
 

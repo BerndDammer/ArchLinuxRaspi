@@ -1,0 +1,4 @@
+gitk &
+# echo press
+# read
+

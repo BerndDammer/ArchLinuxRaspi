@@ -1,0 +1,14 @@
+[Unit]
+Description=xserver
+After=multi-user.target
+Wants=multi-user.target
+
+
+[Service]
+Type=simple
+WorkingDirectory=/root
+ExecStart=/usr/bin/startx /root/.xinitrc
+
+
+[Install]
+WantedBy=graphical.target
