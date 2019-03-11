@@ -25,8 +25,8 @@ mv sdx2/opt/as/${LIB11V} sdx2/opt/as/lib11
 
 echo "******************* add fonts to liberica"
 
-cp fonts /opt/as/lib9/lib
-cp fonts /opt/as/lib11/lib
+cp fonts sdx2/opt/as/lib9/lib
+cp fonts sdx2/opt/as/lib11/lib
 
 echo "******************* copy apps"
 
@@ -41,7 +41,8 @@ cp Java2Demo.jar sdx2/opt/as/apps
 cp SwingSet2.jar sdx2/opt/as/apps
 cp ResourceRead14.jar sdx2/opt/as/apps
 
-cp .xinitrc sdx2/home/alarm
+#cp .xinitrc sdx2/home/alarm
+cp .xinitrc sdx2/root/
 cp install-alarm.sh sdx2/root
 
 cp config.txt sdx1
