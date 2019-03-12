@@ -25,8 +25,8 @@ mv sdx2/opt/as/${LIB11V} sdx2/opt/as/lib11
 
 echo "******************* add fonts to liberica"
 
-cp fonts sdx2/opt/as/lib9/lib
-cp fonts sdx2/opt/as/lib11/lib
+cp -r fonts sdx2/opt/as/lib9/lib
+cp -f fonts sdx2/opt/as/lib11/lib
 
 echo "******************* copy apps"
 
@@ -46,10 +46,10 @@ cp .xinitrc sdx2/root/
 cp install-first.sh sdx2/root
 
 cp config.txt sdx1
-mkdir -f /usr/local/share/applications
-cp applications/*.desktop /usr/local/share/applications
+mkdir -p sdx2/usr/local/share/applications
+cp applications/*.desktop sdx2/usr/local/share/applications
 
-cp alahome/* sdx1/home/alarm
+cp alahome/* sdx2/home/alarm
 
 # cp cmdline.txt sdx1
 
@@ -57,4 +57,4 @@ echo "systemd control files"
 
 cp systemd/*.service sdx2/usr/lib/systemd/system/
 
-mkdir sdx1/boot/as
+mkdir sdx1/as
