@@ -43,16 +43,18 @@ cp ResourceRead14.jar sdx2/opt/as/apps
 
 #cp .xinitrc sdx2/home/alarm
 cp .xinitrc sdx2/root/
-cp install-alarm.sh sdx2/root
+cp install-first.sh sdx2/root
 
 cp config.txt sdx1
 mkdir -f /usr/local/share/applications
 cp applications/*.desktop /usr/local/share/applications
-cp alahome/* /home/alarm
+
+cp alahome/* sdx1/home/alarm
+
 # cp cmdline.txt sdx1
 
 echo "systemd control files"
 
 cp systemd/*.service sdx2/usr/lib/systemd/system/
 
-
+mkdir sdx1/boot/as

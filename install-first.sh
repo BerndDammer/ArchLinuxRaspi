@@ -9,7 +9,6 @@ echo "******************* all system update"
 pacman --noconfirm -Sy
 pacman --noconfirm -Su
 
-
 echo "******************* mc"
 pacman --noconfirm -S mc
 pacman --noconfirm -S htop
@@ -25,4 +24,3 @@ echo "******************* audio adds"
 pacman --noconfirm -S audacity
 pacman --noconfirm -S alsa-lib
 pacman --noconfirm -S alsa-utils
-
