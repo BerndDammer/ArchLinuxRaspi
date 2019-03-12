@@ -26,7 +26,7 @@ mv sdx2/opt/as/${LIB11V} sdx2/opt/as/lib11
 echo "******************* add fonts to liberica"
 
 cp -r fonts sdx2/opt/as/lib9/lib
-cp -f fonts sdx2/opt/as/lib11/lib
+cp -r fonts sdx2/opt/as/lib11/lib
 
 echo "******************* copy apps"
 
