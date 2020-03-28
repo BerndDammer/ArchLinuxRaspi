@@ -1,3 +1,1 @@
-x2go
-
-Published Applications
+x2go without lxde
